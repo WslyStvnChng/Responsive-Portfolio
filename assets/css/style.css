@@ -245,20 +245,15 @@ input[type=submit] {
     border: 0 none;
 }
 
+
 /* Media Queries */
 
-@media screen and (max-width: 980px) {
-    body {
-      /* max-width: 50%; */
-    }
-  
+/* @media screen and (max-width: 980px) {
     #masthead {
-      width: 120%;
-      /* margin-right: 20px; */
+        width: 120%;
     }
-
     nav {
-      width: 460px;
+        width: 460px;
     }
     .main-section {
         float: left;
@@ -271,13 +266,32 @@ input[type=submit] {
         margin-left: 12%;
     }
     footer {
-      max-width: 100%;
+        max-width: 100%;
     }
-}
+} */
 
 @media screen and (max-width: 768px) {
-    .wrapper {
-        width: 600px;
+    #masthead {
+        width: 100%;
+        background: yellow;
+    }
+    nav {
+        width: 400px;
+        background: pink;
+    }
+    .main-section {
+        float: left;
+        width: 400px;
+        margin-left: 25px;
+        height: 100px;
+    }
+    .sidebar {
+        float: right;
+        width: 300px;
+        margin-left: 12%;
+    }
+    footer {
+        max-width: 100%;
     }
 }
 
